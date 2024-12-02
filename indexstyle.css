@@ -19,6 +19,8 @@
     background-color: #f9f9f9; 
     border-radius: 10px; 
     display: auto;
+    transition: 2s;
+
 
 }
 .migtukas:hover{
@@ -35,10 +37,12 @@ body {
 body.dark-mode {
     background: black;
     color: white;
+
 }
 
 body.dark-mode .profile-image {
     border: 2px solid white;
+
 }
 
 body.dark-mode .about h1, 
